@@ -11,6 +11,10 @@
 		CC4974A326FB2565009DEAFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974A226FB2565009DEAFF /* SceneDelegate.swift */; };
 		CC4974AA26FB2567009DEAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4974A926FB2567009DEAFF /* Assets.xcassets */; };
 		CC4974AD26FB2567009DEAFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4974AB26FB2567009DEAFF /* LaunchScreen.storyboard */; };
+		CC4974C326FB5E8D009DEAFF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974C226FB5E8D009DEAFF /* TabBarViewController.swift */; };
+		CC4974C526FB5EB3009DEAFF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974C426FB5EB3009DEAFF /* HomeViewController.swift */; };
+		CC4974C726FB5EC5009DEAFF /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974C626FB5EC5009DEAFF /* LibraryViewController.swift */; };
+		CC4974C926FB5ED1009DEAFF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974C826FB5ED1009DEAFF /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		CC4974A926FB2567009DEAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC4974AC26FB2567009DEAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC4974AE26FB2567009DEAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4974C226FB5E8D009DEAFF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CC4974C426FB5EB3009DEAFF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC4974C626FB5EC5009DEAFF /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		CC4974C826FB5ED1009DEAFF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,10 @@
 		CC4974C026FB5737009DEAFF /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CC4974C426FB5EB3009DEAFF /* HomeViewController.swift */,
+				CC4974C626FB5EC5009DEAFF /* LibraryViewController.swift */,
+				CC4974C826FB5ED1009DEAFF /* SearchViewController.swift */,
+				CC4974C226FB5E8D009DEAFF /* TabBarViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -194,8 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4974C926FB5ED1009DEAFF /* SearchViewController.swift in Sources */,
 				CC4974A126FB2565009DEAFF /* AppDelegate.swift in Sources */,
+				CC4974C726FB5EC5009DEAFF /* LibraryViewController.swift in Sources */,
+				CC4974C326FB5E8D009DEAFF /* TabBarViewController.swift in Sources */,
 				CC4974A326FB2565009DEAFF /* SceneDelegate.swift in Sources */,
+				CC4974C526FB5EB3009DEAFF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
