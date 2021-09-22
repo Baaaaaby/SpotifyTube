@@ -56,15 +56,79 @@
 		CC49749F26FB2565009DEAFF /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
-				CC4974A026FB2565009DEAFF /* AppDelegate.swift */,
-				CC4974A226FB2565009DEAFF /* SceneDelegate.swift */,
+				CC4974BF26FB5729009DEAFF /* Resources */,
+				CC4974BE26FB5718009DEAFF /* Managers */,
+				CC4974BD26FB570C009DEAFF /* ViewModels */,
+				CC4974BC26FB5705009DEAFF /* Models */,
+				CC4974BB26FB56EF009DEAFF /* Views */,
+				CC4974BA26FB56E2009DEAFF /* Controllers */,
 				CC4974A426FB2565009DEAFF /* ViewController.swift */,
 				CC4974A626FB2565009DEAFF /* Main.storyboard */,
-				CC4974A926FB2567009DEAFF /* Assets.xcassets */,
-				CC4974AB26FB2567009DEAFF /* LaunchScreen.storyboard */,
 				CC4974AE26FB2567009DEAFF /* Info.plist */,
 			);
 			path = Spotify;
+			sourceTree = "<group>";
+		};
+		CC4974BA26FB56E2009DEAFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC4974C126FB5741009DEAFF /* Other */,
+				CC4974C026FB5737009DEAFF /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC4974BB26FB56EF009DEAFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC4974AB26FB2567009DEAFF /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CC4974BC26FB5705009DEAFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC4974BD26FB570C009DEAFF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC4974BE26FB5718009DEAFF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CC4974BF26FB5729009DEAFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC4974A926FB2567009DEAFF /* Assets.xcassets */,
+				CC4974A226FB2565009DEAFF /* SceneDelegate.swift */,
+				CC4974A026FB2565009DEAFF /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC4974C026FB5737009DEAFF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CC4974C126FB5741009DEAFF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
