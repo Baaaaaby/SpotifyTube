@@ -15,6 +15,20 @@
 		CC4974C526FB5EB3009DEAFF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974C426FB5EB3009DEAFF /* HomeViewController.swift */; };
 		CC4974C726FB5EC5009DEAFF /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974C626FB5EC5009DEAFF /* LibraryViewController.swift */; };
 		CC4974C926FB5ED1009DEAFF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974C826FB5ED1009DEAFF /* SearchViewController.swift */; };
+		CC4974CB26FB6285009DEAFF /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974CA26FB6285009DEAFF /* AuthViewController.swift */; };
+		CC4974CD26FB6294009DEAFF /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974CC26FB6294009DEAFF /* PlayerViewController.swift */; };
+		CC4974CF26FB62A4009DEAFF /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974CE26FB62A4009DEAFF /* PlaylistViewController.swift */; };
+		CC4974D126FB62B1009DEAFF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D026FB62B1009DEAFF /* ProfileViewController.swift */; };
+		CC4974D326FB62C0009DEAFF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D226FB62C0009DEAFF /* SearchViewController.swift */; };
+		CC4974D526FB62D1009DEAFF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D426FB62D1009DEAFF /* SettingsViewController.swift */; };
+		CC4974D726FB62DF009DEAFF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D626FB62DF009DEAFF /* WelcomeViewController.swift */; };
+		CC4974DB26FB637C009DEAFF /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974DA26FB637C009DEAFF /* UserProfile.swift */; };
+		CC4974DD26FB6391009DEAFF /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974DC26FB6391009DEAFF /* Playlist.swift */; };
+		CC4974DF26FB63A5009DEAFF /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974DE26FB63A5009DEAFF /* AudioTrack.swift */; };
+		CC4974E126FB63B3009DEAFF /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E026FB63B2009DEAFF /* Artist.swift */; };
+		CC4974E326FB63CE009DEAFF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E226FB63CE009DEAFF /* APICaller.swift */; };
+		CC4974E526FB63E3009DEAFF /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E426FB63E3009DEAFF /* AuthManager.swift */; };
+		CC4974E726FB63FB009DEAFF /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E626FB63FB009DEAFF /* HapticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +42,20 @@
 		CC4974C426FB5EB3009DEAFF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CC4974C626FB5EC5009DEAFF /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		CC4974C826FB5ED1009DEAFF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CC4974CA26FB6285009DEAFF /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		CC4974CC26FB6294009DEAFF /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		CC4974CE26FB62A4009DEAFF /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		CC4974D026FB62B1009DEAFF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC4974D226FB62C0009DEAFF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CC4974D426FB62D1009DEAFF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CC4974D626FB62DF009DEAFF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CC4974DA26FB637C009DEAFF /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		CC4974DC26FB6391009DEAFF /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		CC4974DE26FB63A5009DEAFF /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		CC4974E026FB63B2009DEAFF /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		CC4974E226FB63CE009DEAFF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CC4974E426FB63E3009DEAFF /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		CC4974E626FB63FB009DEAFF /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +119,10 @@
 		CC4974BC26FB5705009DEAFF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CC4974DA26FB637C009DEAFF /* UserProfile.swift */,
+				CC4974DC26FB6391009DEAFF /* Playlist.swift */,
+				CC4974DE26FB63A5009DEAFF /* AudioTrack.swift */,
+				CC4974E026FB63B2009DEAFF /* Artist.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,6 +137,9 @@
 		CC4974BE26FB5718009DEAFF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CC4974E226FB63CE009DEAFF /* APICaller.swift */,
+				CC4974E426FB63E3009DEAFF /* AuthManager.swift */,
+				CC4974E626FB63FB009DEAFF /* HapticsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -133,6 +168,13 @@
 		CC4974C126FB5741009DEAFF /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CC4974CA26FB6285009DEAFF /* AuthViewController.swift */,
+				CC4974CC26FB6294009DEAFF /* PlayerViewController.swift */,
+				CC4974CE26FB62A4009DEAFF /* PlaylistViewController.swift */,
+				CC4974D026FB62B1009DEAFF /* ProfileViewController.swift */,
+				CC4974D226FB62C0009DEAFF /* SearchViewController.swift */,
+				CC4974D426FB62D1009DEAFF /* SettingsViewController.swift */,
+				CC4974D626FB62DF009DEAFF /* WelcomeViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -207,11 +249,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4974C926FB5ED1009DEAFF /* SearchViewController.swift in Sources */,
+				CC4974D326FB62C0009DEAFF /* SearchViewController.swift in Sources */,
+				CC4974DF26FB63A5009DEAFF /* AudioTrack.swift in Sources */,
+				CC4974DB26FB637C009DEAFF /* UserProfile.swift in Sources */,
+				CC4974CD26FB6294009DEAFF /* PlayerViewController.swift in Sources */,
+				CC4974D126FB62B1009DEAFF /* ProfileViewController.swift in Sources */,
 				CC4974A126FB2565009DEAFF /* AppDelegate.swift in Sources */,
 				CC4974C726FB5EC5009DEAFF /* LibraryViewController.swift in Sources */,
+				CC4974D726FB62DF009DEAFF /* WelcomeViewController.swift in Sources */,
+				CC4974CB26FB6285009DEAFF /* AuthViewController.swift in Sources */,
+				CC4974CF26FB62A4009DEAFF /* PlaylistViewController.swift in Sources */,
 				CC4974C326FB5E8D009DEAFF /* TabBarViewController.swift in Sources */,
 				CC4974A326FB2565009DEAFF /* SceneDelegate.swift in Sources */,
+				CC4974E326FB63CE009DEAFF /* APICaller.swift in Sources */,
+				CC4974E526FB63E3009DEAFF /* AuthManager.swift in Sources */,
 				CC4974C526FB5EB3009DEAFF /* HomeViewController.swift in Sources */,
+				CC4974E126FB63B3009DEAFF /* Artist.swift in Sources */,
+				CC4974D526FB62D1009DEAFF /* SettingsViewController.swift in Sources */,
+				CC4974E726FB63FB009DEAFF /* HapticsManager.swift in Sources */,
+				CC4974DD26FB6391009DEAFF /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
