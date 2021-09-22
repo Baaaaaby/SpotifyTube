@@ -19,7 +19,7 @@
 		CC4974CD26FB6294009DEAFF /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974CC26FB6294009DEAFF /* PlayerViewController.swift */; };
 		CC4974CF26FB62A4009DEAFF /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974CE26FB62A4009DEAFF /* PlaylistViewController.swift */; };
 		CC4974D126FB62B1009DEAFF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D026FB62B1009DEAFF /* ProfileViewController.swift */; };
-		CC4974D326FB62C0009DEAFF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D226FB62C0009DEAFF /* SearchViewController.swift */; };
+		CC4974D326FB62C0009DEAFF /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D226FB62C0009DEAFF /* SearchResultsViewController.swift */; };
 		CC4974D526FB62D1009DEAFF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D426FB62D1009DEAFF /* SettingsViewController.swift */; };
 		CC4974D726FB62DF009DEAFF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974D626FB62DF009DEAFF /* WelcomeViewController.swift */; };
 		CC4974DB26FB637C009DEAFF /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974DA26FB637C009DEAFF /* UserProfile.swift */; };
@@ -46,7 +46,7 @@
 		CC4974CC26FB6294009DEAFF /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		CC4974CE26FB62A4009DEAFF /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		CC4974D026FB62B1009DEAFF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		CC4974D226FB62C0009DEAFF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CC4974D226FB62C0009DEAFF /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		CC4974D426FB62D1009DEAFF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CC4974D626FB62DF009DEAFF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		CC4974DA26FB637C009DEAFF /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 				CC4974CC26FB6294009DEAFF /* PlayerViewController.swift */,
 				CC4974CE26FB62A4009DEAFF /* PlaylistViewController.swift */,
 				CC4974D026FB62B1009DEAFF /* ProfileViewController.swift */,
-				CC4974D226FB62C0009DEAFF /* SearchViewController.swift */,
+				CC4974D226FB62C0009DEAFF /* SearchResultsViewController.swift */,
 				CC4974D426FB62D1009DEAFF /* SettingsViewController.swift */,
 				CC4974D626FB62DF009DEAFF /* WelcomeViewController.swift */,
 			);
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4974C926FB5ED1009DEAFF /* SearchViewController.swift in Sources */,
-				CC4974D326FB62C0009DEAFF /* SearchViewController.swift in Sources */,
+				CC4974D326FB62C0009DEAFF /* SearchResultsViewController.swift in Sources */,
 				CC4974DF26FB63A5009DEAFF /* AudioTrack.swift in Sources */,
 				CC4974DB26FB637C009DEAFF /* UserProfile.swift in Sources */,
 				CC4974CD26FB6294009DEAFF /* PlayerViewController.swift in Sources */,
