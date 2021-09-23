@@ -19,17 +19,36 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         return webView
     }()
     
+    public var completionHandler: ((Bool) -> Void)?     //WelcomeViewControllerへ
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Sign In"
         view.backgroundColor = .systemBackground
         webView.navigationDelegate = self
         view.addSubview(webView)
-        
+        guard let url = AuthManager.shared.signInURL else {     //以下4行でログイン画面表示
+            return
+        }
+        webView.load(URLRequest(url: url))
     }
     
     override func viewDidLayoutSubviews() {
         super .viewDidLayoutSubviews()
         webView.frame = view.bounds
     }
+    
+    func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        guard let url = webView.url else {
+            return
+        }
+        //Exchange the code for acsess token
+        guard let code = URLComponents(string: url.absoluteString)?.queryItems?.first(where: { $0.name == "cide" })?.value
+            else {
+            return
+        }
+        
+        print("Code: \(code)")
+    }
 }
+
