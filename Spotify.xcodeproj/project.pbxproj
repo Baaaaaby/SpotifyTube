@@ -30,6 +30,7 @@
 		CC4974E526FB63E3009DEAFF /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E426FB63E3009DEAFF /* AuthManager.swift */; };
 		CC4974E726FB63FB009DEAFF /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E626FB63FB009DEAFF /* HapticsManager.swift */; };
 		CC73911426FC425600469A5F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73911326FC425600469A5F /* Extensions.swift */; };
+		CC73911626FCD1E200469A5F /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73911526FCD1E200469A5F /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		CC4974E426FB63E3009DEAFF /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		CC4974E626FB63FB009DEAFF /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		CC73911326FC425600469A5F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CC73911526FCD1E200469A5F /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				CC4974DC26FB6391009DEAFF /* Playlist.swift */,
 				CC4974DE26FB63A5009DEAFF /* AudioTrack.swift */,
 				CC4974E026FB63B2009DEAFF /* Artist.swift */,
+				CC73911526FCD1E200469A5F /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				CC4974D126FB62B1009DEAFF /* ProfileViewController.swift in Sources */,
 				CC4974A126FB2565009DEAFF /* AppDelegate.swift in Sources */,
 				CC4974C726FB5EC5009DEAFF /* LibraryViewController.swift in Sources */,
+				CC73911626FCD1E200469A5F /* AuthResponse.swift in Sources */,
 				CC4974D726FB62DF009DEAFF /* WelcomeViewController.swift in Sources */,
 				CC4974CB26FB6285009DEAFF /* AuthViewController.swift in Sources */,
 				CC4974CF26FB62A4009DEAFF /* PlaylistViewController.swift in Sources */,
