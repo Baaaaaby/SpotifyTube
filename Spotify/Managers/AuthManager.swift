@@ -90,7 +90,7 @@ final class AuthManager {
     
         
         
-        request.setValue("Basic \(base64String)", forHTTPHeaderField: "Authorizaton")
+        request.setValue("Basic \(base64String)", forHTTPHeaderField: "Authorization")
         
         let task = URLSession.shared.dataTask(with: request) { [weak self] data, _, error in
             guard let data = data, error == nil else {
@@ -100,7 +100,7 @@ final class AuthManager {
             
             do {
                 let result = try JSONDecoder().decode(AuthResponse.self, from: data)
-                self?.casheToken(result: result)
+                self?.cacheToken(result: result)
                 completion(true)
             }
             catch {
@@ -112,11 +112,22 @@ final class AuthManager {
         task.resume()
     }
     
-    public func refreshAccessToken() {
+    public func refreshIfNeeded(completion: @escaping (Bool) -> Void) {
+        guard shouldRefreshToken else {
+            completion(true)
+            return
+        }
+        
+        guard let refreshToken = self.refreshToken else {
+            return
+        }
+        
+        //Refresh the token                                     // #4  20:10
+        
         
     }
     
-    public func casheToken(result: AuthResponse) {
+    public func cacheToken(result: AuthResponse) {
         UserDefaults.standard.setValue(result.access_token,
                                        forKey: "access_token")
         UserDefaults.standard.setValue(result.refresh_token,
