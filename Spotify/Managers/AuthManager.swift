@@ -18,8 +18,8 @@ final class AuthManager {
         static let ClientSecret = "962eef986e1a4d09af0bd464d35d95af"
         static let tokenAPIURL = "https://accounts.spotify.com/api/token"
         static let redirectURI = "https://baaaaaby.github.io/infodelivery/"
-        static let scopes =
-            "user-read-private%20@playlist-modify-public%20playlist-read-private%20playlist-modify-private%20user-follow-read%20user-library-modify%20user-library-read%20user-read-email"
+        static let scopes = "user-read-private"
+//            "user-read-private%20@playlist-modify-public%20playlist-read-private%20playlist-modify-private%20user-follow-read%20user-library-modify%20user-library-read%20user-read-email"
         
     }
     
@@ -114,11 +114,25 @@ final class AuthManager {
         task.resume()
     }
     
+    public func withValidToken(completion: @escaping (String) -> Void) {
+        if shouldRefreshToken {
+            //Refresh
+            refreshIfNeeded { [weak self] success in
+                if let token = self?.accessToken, success {
+                    completion(token)
+                }
+            }
+        }
+        else if let token = accessToken {
+            completion(token)
+        }
+    }
+    
     public func refreshIfNeeded(completion: @escaping (Bool) -> Void) {
-//        guard shouldRefreshToken else {                 //コメントアウト
-//                    completion(true)
-//                    return
-//                }
+        guard shouldRefreshToken else {                 //コメントアウト
+                    completion(true)
+                    return
+                }
         
         guard let refreshToken = self.refreshToken else {
             return
