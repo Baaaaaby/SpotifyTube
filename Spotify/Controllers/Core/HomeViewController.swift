@@ -19,9 +19,9 @@ class HomeViewController: UIViewController {
                                                             action: #selector(didTabSettings))
     }
 
-    @objc func didTabSettings() {
-        let vc = ProfileViewController()
-        vc.title = "Profile"
+    @objc func didTabSettings() {                                   //右上 設定
+        let vc = SettingsViewController()
+        vc.title = "Settings"
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }

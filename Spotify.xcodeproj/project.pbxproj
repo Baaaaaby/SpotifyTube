@@ -29,6 +29,7 @@
 		CC4974E326FB63CE009DEAFF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E226FB63CE009DEAFF /* APICaller.swift */; };
 		CC4974E526FB63E3009DEAFF /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E426FB63E3009DEAFF /* AuthManager.swift */; };
 		CC4974E726FB63FB009DEAFF /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E626FB63FB009DEAFF /* HapticsManager.swift */; };
+		CC5602B32707096B0072B197 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5602B22707096B0072B197 /* SettingsModels.swift */; };
 		CC73911426FC425600469A5F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73911326FC425600469A5F /* Extensions.swift */; };
 		CC73911626FCD1E200469A5F /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73911526FCD1E200469A5F /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		CC4974E226FB63CE009DEAFF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		CC4974E426FB63E3009DEAFF /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		CC4974E626FB63FB009DEAFF /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		CC5602B22707096B0072B197 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
 		CC73911326FC425600469A5F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CC73911526FCD1E200469A5F /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +130,7 @@
 				CC4974DE26FB63A5009DEAFF /* AudioTrack.swift */,
 				CC4974E026FB63B2009DEAFF /* Artist.swift */,
 				CC73911526FCD1E200469A5F /* AuthResponse.swift */,
+				CC5602B22707096B0072B197 /* SettingsModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				CC73911426FC425600469A5F /* Extensions.swift in Sources */,
 				CC4974E326FB63CE009DEAFF /* APICaller.swift in Sources */,
 				CC4974E526FB63E3009DEAFF /* AuthManager.swift in Sources */,
+				CC5602B32707096B0072B197 /* SettingsModels.swift in Sources */,
 				CC4974C526FB5EB3009DEAFF /* HomeViewController.swift in Sources */,
 				CC4974E126FB63B3009DEAFF /* Artist.swift in Sources */,
 				CC4974D526FB62D1009DEAFF /* SettingsViewController.swift in Sources */,
