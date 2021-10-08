@@ -23,11 +23,8 @@ class HomeViewController: UIViewController {
     }
     
     private func fetchData() {
-        APICaller.shared.getNewRelease { result in
-            switch result {
-            case .success(let model): break
-            case .failure(let error): break
-            }
+        APICaller.shared.getFeaturedPlaylists { _ in 
+            
         }
     }
 
