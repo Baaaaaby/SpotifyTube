@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,6 +31,8 @@
 		CC4974E526FB63E3009DEAFF /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E426FB63E3009DEAFF /* AuthManager.swift */; };
 		CC4974E726FB63FB009DEAFF /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4974E626FB63FB009DEAFF /* HapticsManager.swift */; };
 		CC5602B32707096B0072B197 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5602B22707096B0072B197 /* SettingsModels.swift */; };
+		CC6842452709AB63005E6A83 /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6842442709AB63005E6A83 /* NewReleasesResponse.swift */; };
+		CC6842472709AB7F005E6A83 /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6842462709AB7F005E6A83 /* APIImage.swift */; };
 		CC73911426FC425600469A5F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73911326FC425600469A5F /* Extensions.swift */; };
 		CC73911626FCD1E200469A5F /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73911526FCD1E200469A5F /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		CC4974E426FB63E3009DEAFF /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		CC4974E626FB63FB009DEAFF /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		CC5602B22707096B0072B197 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		CC6842442709AB63005E6A83 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
+		CC6842462709AB7F005E6A83 /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
 		CC73911326FC425600469A5F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CC73911526FCD1E200469A5F /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		D500ADC3132CC51A5513C02D /* Pods_Spotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +90,6 @@
 				4CB3D740016EC092FD777A8C /* Pods-Spotify.debug.xcconfig */,
 				505FD54AED40A168973C7142 /* Pods-Spotify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,6 +151,8 @@
 				CC4974E026FB63B2009DEAFF /* Artist.swift */,
 				CC73911526FCD1E200469A5F /* AuthResponse.swift */,
 				CC5602B22707096B0072B197 /* SettingsModels.swift */,
+				CC6842442709AB63005E6A83 /* NewReleasesResponse.swift */,
+				CC6842462709AB7F005E6A83 /* APIImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -332,9 +337,11 @@
 				CC4974DB26FB637C009DEAFF /* UserProfile.swift in Sources */,
 				CC4974CD26FB6294009DEAFF /* PlayerViewController.swift in Sources */,
 				CC4974D126FB62B1009DEAFF /* ProfileViewController.swift in Sources */,
+				CC6842452709AB63005E6A83 /* NewReleasesResponse.swift in Sources */,
 				CC4974A126FB2565009DEAFF /* AppDelegate.swift in Sources */,
 				CC4974C726FB5EC5009DEAFF /* LibraryViewController.swift in Sources */,
 				CC73911626FCD1E200469A5F /* AuthResponse.swift in Sources */,
+				CC6842472709AB7F005E6A83 /* APIImage.swift in Sources */,
 				CC4974D726FB62DF009DEAFF /* WelcomeViewController.swift in Sources */,
 				CC4974CB26FB6285009DEAFF /* AuthViewController.swift in Sources */,
 				CC4974CF26FB62A4009DEAFF /* PlaylistViewController.swift in Sources */,

@@ -16,7 +16,19 @@ class HomeViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "gear"),
                                                             style: .done,
                                                             target: self,
-                                                            action: #selector(didTabSettings))
+                                                            action: #selector(didTabSettings)
+        )
+        
+        fetchData()
+    }
+    
+    private func fetchData() {
+        APICaller.shared.getNewRelease { result in
+            switch result {
+            case .success(let model): break
+            case .failure(let error): break
+            }
+        }
     }
 
     @objc func didTabSettings() {                                   //右上 設定
