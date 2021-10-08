@@ -12,7 +12,7 @@ struct NewReleasesResponse: Codable {
 }
 
 struct AlbumsResponse: Codable {
-    let items = [Album]
+    let items: [Album]
 }
 
 struct Album: Codable {
@@ -25,3 +25,4 @@ struct Album: Codable {
     let total_tracks: Int
     let artists: [Artist]
 }
+
