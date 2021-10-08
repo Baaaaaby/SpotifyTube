@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
     }
     
     private func fetchData() {
-        APICaller.shared.getFeaturedPlaylists { _ in 
+        APICaller.shared.getRecommendedGenres { _ in
             
         }
     }
