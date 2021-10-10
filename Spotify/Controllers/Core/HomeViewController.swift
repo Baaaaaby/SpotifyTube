@@ -33,8 +33,8 @@ class HomeViewController: UIViewController {
             target: self,
             action: #selector(didTabSettings)
         )
-        view.addSubview(spinner)
         configureCollectionView()
+        view.addSubview(spinner)
         fetchData()
     }
     
@@ -61,25 +61,37 @@ class HomeViewController: UIViewController {
             )
         )
         
-        // Group
-        let group = NSCollectionLayoutGroup.vertical(
+        item.contentInsets = NSDirectionalEdgeInsets(top: 2, leading: 2, bottom: 2, trailing: 2)
+        
+        // Vertical Group in horizontal group
+        let verticalGroup = NSCollectionLayoutGroup.vertical(
             layoutSize: NSCollectionLayoutSize(
                 widthDimension: .fractionalWidth(1.0),
-                heightDimension: .absolute(120)
+                heightDimension: .absolute(390)
             ),
             subitem: item,
+            count: 3                                                //スライドするやつが1画面にいくつか
+        )
+        
+        let horizontalGroup = NSCollectionLayoutGroup.horizontal(
+            layoutSize: NSCollectionLayoutSize(
+                widthDimension: .fractionalWidth(0.9),
+                heightDimension: .absolute(390)
+            ),
+            subitem: verticalGroup,
             count: 1
         )
         
         // Section
-        let section = NSCollectionLayoutSection(group: group)
+        let section = NSCollectionLayoutSection(group: horizontalGroup)
+        section.orthogonalScrollingBehavior = .groupPaging           //横にスライド
         return section
     }
     
     private func fetchData() {
+        // New Releases
         // Featured Playlists
         // Recommended Tracks
-        // New Releases
         APICaller.shared.getRecommendedGenres { result in
             switch result {
             case .success(let model):
