@@ -217,6 +217,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             }
             let viewModel = viewModels[indexPath.row]
             
+            cell.backgroundColor = .red
             return cell
         case .featuredPlaylists(let viewModels):
             guard let cell = collectionView.dequeueReusableCell(
